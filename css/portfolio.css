@@ -39,12 +39,35 @@ h2 {
 	letter-spacing: 0.03em;
 }
 
+.header-items {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+}
+
 .header-nav .logo {
 	color: var(--cyan);
+	margin-right: 93px;
 }
 
 .span-logo {
 	color: var(--black);
+}
+
+.site-nav {
+	display: flex;
+}
+
+.link-nav {
+	margin-right: 50px;
+}
+.link-nav:last-child {
+	margin-right: 0;
 }
 
 .site-nav .link {
@@ -63,6 +86,11 @@ h2 {
 	color: var(--cyan);
 }
 
+.auth-nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
 .auth-nav .link {
 	color: var(--grey);
 	font-weight: 500;
@@ -73,6 +101,10 @@ h2 {
 .auth-nav .link:hover,
 .auth-nav .link:focus {
 	color: var(--cyan);
+}
+
+.nav-link {
+	margin-right: 50px;
 }
 
 /* Навигация */
@@ -92,6 +124,18 @@ h2 {
 
  .section {
 	 margin-top: 94px;
+ }
+
+ .section-item {
+	 display: flex;
+	 justify-content: center;
+ }
+
+ .section-list {
+	 margin-right: 8px;
+ }
+ .section-list:last-child {
+	 margin-right: 0;
  }
 
 .section-item .link {
