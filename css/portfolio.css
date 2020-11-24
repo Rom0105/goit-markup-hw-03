@@ -18,7 +18,20 @@ h2 {
 	font-weight: 700;
 }
 
+.container {
+	width: 1230px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
 /* Шапка */
+.header {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border: 1px solid #ECECEC;
+}
+
 .logo {
 	font-family: Raleway;
 	font-size: 26px;
@@ -77,7 +90,13 @@ h2 {
 	overflow: hidden;
  }
 
+ .section {
+	 margin-top: 94px;
+ }
+
 .section-item .link {
+	padding: 6px 22px;
+	border-radius: 4px;
 	color: var(--black);
 	background-color: var(--grey3);
 	font-weight: 500;
@@ -89,6 +108,7 @@ h2 {
 .section-item .link:focus {
 	color: var(--white);
 	background-color: var(--cyan);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .section-item .current {
@@ -97,6 +117,23 @@ h2 {
 }
 
 /* Список карточек */
+.list {
+	margin-top: 50px;
+}
+
+.list-item {
+	width: 370px;
+	background: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	box-sizing: border-box;
+}
+
+.list-text {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 24px;
+}
+
 .list .text {
 	color: var(--grey);
 	font-size: 16px;
@@ -115,12 +152,25 @@ h2 {
 	background-color: var(--violet);
 }
 
+.footer-list {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
 .footer .logo {
 	color: var(--cyan);
 }
 
 .footer-span {
 	color: var(--white);
+}
+
+.address {
+	margin-top: 20px;
+}
+
+.address-list {
+	margin-top: 10px;
 }
 
 .address .link {
