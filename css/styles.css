@@ -27,11 +27,11 @@ h2, h3 {
 }
 
 /* Шапка */
-.header {
+/* .header {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
-
+ */
 .logo {
 	font-family: Raleway;
 	font-size: 26px;
@@ -65,14 +65,14 @@ h2, h3 {
 	display: flex;
 }
 
-.link-nav {
+.link-nav:not(:last-child) {
 	margin-right: 50px;
-}
-.link-nav:last-child {
-	margin-right: 0;
 }
 
 .site-nav .link {
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
 	color: var(--black);
 	font-weight: 500;
 	font-size: 14px;
@@ -94,6 +94,9 @@ h2, h3 {
 }
 
 .auth-nav .link {
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
 	color: var(--grey);
 	font-weight: 500;
 	font-size: 14px;
@@ -164,11 +167,8 @@ h2, h3 {
 	display: flex;
 }
 
-.text-item {
+.text-item:not(:last-child) {
 	margin-right: 30px;
-}
-.text-item:last-child {
-	margin-right: 0;
 }
 
 .text-title {
@@ -206,11 +206,8 @@ h2, h3 {
 	display: flex;
 }
 
-.work-item {
+.work-item:not(:last-child) {
 	margin-right: 30px;
-}
-.work-item:last-child {
-	margin-right: 0;
 }
 /* Наша команда */
 .team {
@@ -237,13 +234,12 @@ h2, h3 {
 
 .team-comand {
 	width: 270px;
-	margin-right: 30px;
 	background-color: var(--white);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
-.team-comand:last-child {
-	margin-right: 0;
+.team-comand:not(:last-child) {
+	margin-right: 30px;
 }
 
 .team-list {
