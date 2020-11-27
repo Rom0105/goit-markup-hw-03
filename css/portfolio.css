@@ -170,7 +170,7 @@ h2 {
 	width: calc((100% - 60px) / 3);
 	margin-right: 30px;
 	margin-bottom: 30px;
-	background: #FFFFFF;
+	background: var(--white);
 	border: 1px solid #EEEEEE;
 	box-sizing: border-box;
 }
@@ -189,6 +189,7 @@ h2 {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 24px;
+	padding-right: 24px;
 }
 
 .list .text {
