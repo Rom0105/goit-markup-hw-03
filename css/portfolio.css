@@ -181,6 +181,10 @@ h2 {
 	margin-bottom: 0;
 }
 
+.list-link {
+	display: block;
+}
+
 .list-text {
 	padding-top: 20px;
 	padding-bottom: 20px;

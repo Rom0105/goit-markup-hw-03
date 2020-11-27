@@ -27,11 +27,10 @@ h2, h3 {
 }
 
 /* Шапка */
-/* .header {
-	padding-top: 25px;
-	padding-bottom: 25px;
+.header {
+	border: 1px solid #ECECEC;
 }
- */
+
 .logo {
 	font-family: Raleway;
 	font-size: 26px;
