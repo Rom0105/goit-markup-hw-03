@@ -195,7 +195,7 @@ h2, h3 {
 .work-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.17;
+	line-height: 1.166;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -210,6 +210,7 @@ h2, h3 {
 }
 /* Наша команда */
 .team {
+	padding-top: 94px;
 	padding-bottom: 94px;
 	background-color: var(--grey3);
 }
@@ -219,10 +220,9 @@ h2, h3 {
 }
 
 .team-title {
-	padding-top: 94px;
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.17;
+	line-height: 1.166;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -262,12 +262,9 @@ h2, h3 {
 
 /* Футер */
 .footer {
-	background-color: var(--violet);
-}
-
-.footer-list {
 	padding-top: 60px;
 	padding-bottom: 60px;
+	background-color: var(--violet);
 }
 
 .footer .logo {

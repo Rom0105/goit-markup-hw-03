@@ -193,6 +193,7 @@ h2 {
 }
 
 .list .text {
+	margin-top: 4px;
 	color: var(--grey);
 	font-size: 16px;
 	line-height: 1.87;
